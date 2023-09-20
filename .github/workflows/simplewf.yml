@@ -33,7 +33,7 @@ jobs:
         with:
           name: homework
           path: math-homework.txt
-    job_3:
+  job_3:
     name: Display results
     needs: job_2
     runs-on: macOS-latest
